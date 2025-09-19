@@ -1,0 +1,154 @@
+/* .moviedata-container{
+    display: flex;    
+    align-items: flex-start;
+}
+
+.moviedata-container img{
+    width: 30rem;
+    display: block;
+    margin: 1rem ;
+    display: flex;    
+    align-items: flex-start;
+}
+
+.moviedata-container h2{
+    color: brown;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.moviedata-container #p{
+   margin: 0.5rem 0 ;
+   font-size: 1.1rem;
+   display: flex;
+   flex-direction: column;
+   
+} */
+
+.moviedata-container{
+    display: flex;
+    flex-direction: column 6;
+}
+
+.movie-details{
+    display: flex;
+    flex-direction: column ;
+    justify-content: top;
+}
+
+.moviedata-container img{
+    width: 30rem;
+    height: 35rem;
+    border-radius: 1rem;
+    margin-right: 5rem;
+}
+
+.moviedata-container h2{
+    text-align: left;
+    text-transform: capitalize;
+    justify-content: center;
+    color: brown;
+    font-size: xx-large;
+    text-decoration: dashed;
+}
+
+.movie-details p{
+    font-size: x-large;
+    text-align: left;
+}
+
+.btns{
+    margin: 0.5rem;
+    width: max-content;
+    justify-content: left;
+
+}
+
+.btns button{
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.movie-img img{
+    width: 30rem;
+    border-radius: 14px;
+}
+
+.movie-details{
+    text-align: left;
+    margin-top:2rem;
+}
+
+.movie-details h2{
+    color: brown;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-decoration: underline rgb(78, 67, 88);
+    position: relative;
+    left: 5%;
+}
+
+.movie-details h3{
+    padding-top: 1rem;
+}
+
+.movie-details p{
+    margin-top: 2rem;
+    font-size: x-large;
+}
+
+.btns{
+    margin-top: 2rem;
+    text-decoration: aqua;
+}
+
+
+/* Cards */
+.review-Container p{
+    font-size: 2rem;
+    color: bisque;
+    font-weight: bolder;
+    text-align: start;
+    position: relative;
+    left: 15%;
+} 
+
+/* .review-Container h2{
+    color: rgb(142, 78, 233);
+} */
+.card{
+    background-color: rgb(84, 93, 93);
+    margin: 1rem 0 0 5rem;
+    padding: 1rem;
+    border-radius: 20;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.reviewTitle{
+    text-align: start;
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: blue;
+}
+.card-body h2{
+    background-color: transparent;
+    text-align: start;
+    text-transform: capitalize;
+    color: white;
+    font-size: x-large;
+}
+
+.card-body h3{
+    color: white;
+    background-color: transparent;
+    text-align: start;
+}

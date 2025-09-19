@@ -1,0 +1,8 @@
+.headerContent{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.headerContent Link:hover{
+    color: red;
+}

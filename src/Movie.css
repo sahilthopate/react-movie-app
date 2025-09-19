@@ -1,0 +1,68 @@
+/* .Movie{
+   border: 1px solid white;
+   height: 25rem;
+   width: 15rem;
+   border-radius: 14px;
+   margin: 2rem;
+   padding: 0.5rem; */
+   /* justify-content: center; */
+   /* align-items: center; 
+}
+
+.movieNameContent{
+   margin-bottom: 1.2rem;
+   font-size: 25px;
+   color: rgba(255, 174, 0, 0.443);
+   text-align: start;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.movieContent{
+   text-align:left ;
+}
+
+.movieData{
+   font-size: 1.1rem;
+   margin-bottom: 1.2rem;
+} */
+
+.Movie-Content{
+   border:1px solid whitesmoke;
+   width: 300px;
+   border-radius: 10px;
+   margin: 2rem 1rem;
+   cursor: pointer;
+}
+
+.Movie-Content img{
+   height: 50%;
+   border-radius: 10px;
+   text-align: start;
+   text-size-adjust: initial;
+   text-wrap: initial;
+   text-justify: initial;
+}
+
+.Movie-Content h3 {
+   text-align: start;
+   text-transform: uppercase;
+   font-size: x-large;
+   padding: 1rem;
+}
+
+.Movie-Content p{
+   text-align: start;
+   padding: 1rem;
+   font-size: larger;
+   transform:scale() ;
+}
+
+.Movie-Content:hover{
+   background-color: rgb(51, 60, 68);
+   transform: scale(1.1);
+   box-shadow: 2vh;
+   border-color: darkorange;
+}
+
