@@ -19,6 +19,8 @@ export default function Movie({formData}){
         }   
     }
     
+    if (!formData) return null;
+    
     return(
         <>
         

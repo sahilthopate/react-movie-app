@@ -1,0 +1,17 @@
+.topMovies-container{
+    padding: 0;
+    margin: 0;
+}
+
+
+.topMoviesData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.return{
+    position: absolute;
+    left:  85%;
+    font-size: larger;
+}

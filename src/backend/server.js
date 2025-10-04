@@ -125,6 +125,7 @@ import mongoose from "mongoose";
 import Movie from "./models/movie.js";
 import Review from "./models/review.js"
 import cors from "cors";
+import { set } from "mongoose";
 
 const app = express();
 

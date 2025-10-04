@@ -4,8 +4,8 @@
     background-color: dimgray;
     width: 50%;
     text-align: center;
-    justify-content: center;
     padding: 20px 100px;
+    /* margin-bottom: 5px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,14 +28,21 @@
 }
 
 .uploadMovie h1{
-    padding-bottom: 1rem;
+    margin-bottom: 1.8rem;
+    text-decoration: underline;
 }
 
 .uploadMovie button{
     width: 35%;
     height: 35%;
     border-radius: 14px;
+    margin-right: 10px;
 }
+
+.uploadMovie button:hover{
+    background-color: rgb(0, 255, 183);
+    color: black;
+} 
 
 .file{
     position: absolute;

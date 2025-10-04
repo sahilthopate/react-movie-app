@@ -1,8 +1,19 @@
 .headerContent{
+    position: absolute;
+    left: 75%;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
     background-color: transparent;
     border: 1px solid transparent;
+    margin: 0.5rem;
 }
 
-.headerContent Link:hover{
-    color: red;
+.headerContent .upload ,
+.headerContent .toprated {
+    font-size: 2vmax;
 }
+
+
+
+

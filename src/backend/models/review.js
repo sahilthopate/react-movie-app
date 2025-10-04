@@ -14,10 +14,6 @@ const reviewSchema = new mongoose.Schema({
         type:Schema.Types.ObjectId,
         ref:"Movie"
     },
-    // createdAt:{
-    //     type:Date,
-    //     default:Date.now(),
-    // },
 });
 
 const Review = mongoose.model("Review",reviewSchema);
